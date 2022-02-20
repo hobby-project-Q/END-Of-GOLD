@@ -3,7 +3,7 @@ import style from './MainHeader.module.css';
 function MainHeader() {
     return (
         <header className={style.headerBox}>
-            <div class={style.wrap}>
+            <div class={`${style.wrap} wrap `}>
                 <img src="" alt="로고"/>
                 <h1>황금의 끝자락</h1>
                 <a
