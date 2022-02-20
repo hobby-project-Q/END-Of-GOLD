@@ -1,9 +1,12 @@
 import MainLayout from "../component/Layout/MainLayout";
+import RuleSection from "../component/section/RuleSection";
+import UniversalRuleSection from "../component/section/UniversalRuleSection";
 
 function Main(){
     return (
         <MainLayout>
-            <section style={{height: '100px'}}>악</section>
+            <RuleSection />
+            <UniversalRuleSection />
         </MainLayout>
     )
 }
